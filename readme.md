@@ -1,9 +1,9 @@
-# Golang と Nginx のサンプル
+# nodejs と Nginx のサンプル
 
 ## nginx 
 - ./Genkey.sh を実行すると https に必要な自己証明書が生成されます
 
-- デフォルトで golang のコンテナに リバースプロキシを通しています
+- nodejs のコンテナに リバースプロキシを通すコードをコメントアウトしています
 
-## golang のサンプル
-- gin で動くweb アプリのコードがあります
+## nodejs のサンプル
+- nodejs (typescript) で動く discordbot のサンプルがあります

@@ -1,3 +1,6 @@
-FROM golang:1.22.3-bookworm
+FROM node:lts-bullseye
 
 RUN apt update
+RUN apt install wget -y
+
+WORKDIR /root/app
